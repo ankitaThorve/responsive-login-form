@@ -69,4 +69,15 @@ body {
   justify-content: center;
   color: #fff;
   font-size: 18px;
+  border: 1px solid #9b8ec7;
+  border-radius: 5px 0 0 5px;
+}
+
+.wrapper form .field.button input {
+  color: #fff;
+  background: #9b8ec7;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 0;
 }
