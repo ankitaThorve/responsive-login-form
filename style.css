@@ -16,7 +16,8 @@ body {
 }
 
 .wrapper {
-  width: 380px;
+  width: 400px;
+  height: 400px;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
@@ -80,4 +81,27 @@ body {
   cursor: pointer;
   font-size: 20px;
   padding-left: 0;
+}
+
+.wrapper form .pass{
+  margin: -8px 0 20px 0;
+}
+.wrapper form .pass a{ 
+  color: #9b8ec7;
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper form .signup{
+  margin: 10px 0 20px 0;
+  text-align: center;
+}
+.wrapper form .signup a{ 
+  color: #9b8ec7;
+  font-size: 17px;
+  text-decoration: none;
+  /* margin-top: 20px; */
+}
+
+.wrapper form .pass a:hover{
+  text-decoration: underline;
 }
