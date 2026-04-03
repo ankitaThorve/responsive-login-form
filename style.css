@@ -27,9 +27,30 @@ body {
   font-weight: 600;
   text-align: center;
   line-height: 80px;
-  background: #9B8EC7;
+  background: #9b8ec7;
   padding-left: 20px;
   border-radius: 5px 5px 0 0;
   color: #fff;
   user-select: none;
+}
+
+.wrapper form {
+  padding: 30px 25px 25px 25px;
+}
+
+.wrapper form .field {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: red;
+}
+
+.wrapper form .field input {
+  height: 100%;
+  width: 100%;
+  padding-left: 20px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
 }
